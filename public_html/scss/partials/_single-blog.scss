@@ -1,0 +1,60 @@
+.single-blog-text-section{
+    margin-top: 16.5rem;
+    .single-blog-data{
+        .single-blog-data-title{
+            border-right: 1px solid $primary;
+        }
+    }   
+}
+
+@media(min-width: 320px){
+    .single-blog-text{
+        h2{
+            font-size: 2.4rem;
+        }
+    }
+}
+
+@media(min-width: 600px){
+    .single-blog-text{
+        h2{
+            font-size: 2rem;
+        }
+    }
+}
+
+@media(min-width: 992px){
+    .single-blog-text{
+        h2{
+            font-size: 2.8rem;
+        }
+    }
+}
+
+@media(min-width: 1200px){
+    .single-blog-text{
+        h2{
+            font-size: 3rem;
+        }
+    }
+}
+
+/*-------------------------*/
+
+/*TAGS*/
+.tags{
+    
+    h6{
+        font-style: italic;
+        font-familiy: $Bodoni;
+/*        font-familiy: $Bodoni;*/
+    }
+    
+    a{
+        border: 1px solid transparent;
+    }
+    a:hover{
+        border: 1px solid $primary;
+        cursor: pointer;
+    }
+}

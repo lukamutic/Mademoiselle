@@ -1,0 +1,55 @@
+
+img{
+    max-width: 100%;
+}
+
+html{
+    font-size: 10px; // 1 rem
+}
+
+///////
+body{
+    font-family: $Lato;
+    font-weight: $font-weight-light;
+    color: $primary;
+}
+
+.navbar-nav{
+    font-size: 1.4rem;
+
+    li{
+
+        margin-right: 0;
+
+        border-bottom: 1px solid transparent;
+        &:hover{
+            border-bottom: 1px solid $secondary;
+        }
+        
+    }
+
+}
+h1{
+    font-family: $Bodoni;
+}
+
+p{
+    font-size: $default-font;
+}
+
+
+@media(min-width:768px){
+    header{
+        .navbar-nav{
+            li{
+                margin-right: 7rem;
+
+                &:last-of-type{
+                   margin-right: 0;
+                }
+
+            } 
+        }
+    }
+
+}

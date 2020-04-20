@@ -1,0 +1,104 @@
+.contact{
+    margin-bottom: 10rem;
+}
+.google-maps {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    
+    .contact .contact-form .form-control{
+    border-radius: 0;
+    border:1px solid #2C2D3C;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 10px;
+}
+
+.contact .contact-form .form-control.is-invalid{
+    border:1px solid red;
+}
+
+.contact .contact-form .form-control.is-valid{
+    border:1px solid green;
+}
+
+.contact .contact-form .form-control:focus{
+    box-shadow: 0 0 5px #2C2D3C;
+}
+
+.contact .contact-form textarea.form-control{
+    height: auto;
+    resize: none;
+}
+
+.contact aside p a{
+color: #2C2D3C;
+}
+
+.contact aside p span{
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+}
+
+.contact .contact-form .form-control{
+    border-radius: 0;
+    border:1px solid transparent;
+    background-color: rgba(37, 61, 97, 0.2);
+    height: 45px;
+    line-height: 45px;
+    padding: 0 10px;
+}
+
+.contact .contact-form .form-control.is-invalid{
+    border:1px solid red;
+}
+
+.contact .contact-form .form-control.is-valid{
+    border:1px solid green;
+}
+
+.contact .contact-form .form-control:focus{
+    box-shadow: 0 0 5px #2C2D3C;
+}
+
+.contact .contact-form textarea.form-control{
+    height: auto;
+    resize: none;
+}
+
+.contact aside p a{
+color: #2C2D3C;
+}
+
+.contact aside p span{
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+}
+
+.submit-button{
+    border: 1px solid $primary;
+    display: inline-block;
+}
+
+.contact form .btn{
+    background-color: #fff;
+    color: $primary;
+    border: 1px solid $primary;
+    font-size: 1.4rem;
+    &:hover{
+        background-color: $primary;
+        color: #ffffff;
+    }
+}

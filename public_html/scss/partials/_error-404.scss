@@ -1,0 +1,17 @@
+.error-404-lead{
+    a{
+        background-color: transparent;
+        color: #fff;
+        border: 1px solid #fff;
+        font-family: $Lato;
+        font-weight: $font-weight-regular;
+        letter-spacing: 0.5px;
+        margin-top: 3rem;
+        font-size: 1.4rem;
+        &:hover{
+            background-color: $secondary;
+            border: 1px solid $primary;
+            color: $primary;
+        }
+    }
+}

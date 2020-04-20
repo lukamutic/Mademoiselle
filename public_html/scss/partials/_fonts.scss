@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+$Lato: 'Lato', sans-serif;
+
+$L-Light:300;
+$L-Regular: 400;
+
+@font-face {
+    font-family:'Bodoni 72';
+    src: url('fonts/fontie-package/Bodoni 72 Book.eot');
+    src: url('fonts/fontie-package/Bodoni 72 Book.eot?#iefix') format('embedded-opentype'),
+        url('fonts/fontie-package/Bodoni 72 Book.woff2') format('woff2'),
+        url('fonts/fontie-package/Bodoni 72 Book.woff') format('woff'),
+        url('fonts/fontie-package/Bodoni 72 Book.svg#Bodoni 72 Book') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    /*    unicode-range: U+0020-0301;*/
+}
+
+
+$Bodoni: 'Bodoni 72', sans-serif;

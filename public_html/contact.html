@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Mademoiselle</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Luka Mutic">
+        <meta name="description" content="Mademoiselle">
+        <meta name="keywords" content="Mademoiselle, blog, fashion, lifestyle...">
+
+
+        <!--ios compatibility-->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-title" content="Mademoiselle">
+        <link rel="apple-touch-icon" href="apple-icon-144x144.png">
+
+
+        <!--Android compatibility-->
+
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="application-name" content="Mademoiselle">
+        <link rel="icon" type="image/png" href="android-icon-192x192.png">
+
+
+        <!--CSS FILES-->
+        <link href="css/theme.css" rel="stylesheet" type="text/css"/>
+
+
+    </head>
+    <body>
+
+        <!--header start-->
+        <header class="fixed-top bg-white"> 
+            <!--container start-->
+            <div class="container">
+                <!--navigation start-->
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <!--LOGO start-->
+                    <a class="navbar-brand p-0 animation" data-animation="slideDown" data-delay="0s" href="index.html">
+                        <img src="img/logo.png" alt=""/>
+                    </a>
+                    <!--toggler-->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+
+                    <!-- navbar-collapse / ul list -->
+                    <div class="collapse navbar-collapse align-content-stretch" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto align-items-center align-content-center mt-5 mt-md-0">
+                            <li class="nav-item ml-0 mb-2 mb-md-0 animation" data-animation="slideDown" data-delay="0s">
+                                <a class="nav-link text-uppercase pl-0 pr-0 " href="about.html">about</a>
+                            </li>
+                            <li class="nav-item  ml-0 mb-2 mb-md-0 animation" data-animation="slideDown" data-delay="0.15s">
+                                <a class="nav-link text-uppercase  pl-0 pr-0 " href="services.html">services</a>
+                            </li>
+                            <li class="nav-item  ml-0 mb-2 mb-md-0 animation" data-animation="slideDown" data-delay="0.30s">
+                                <a class="nav-link text-uppercase  pl-0 pr-0 active" href="blog.html">blog</a>
+                            </li>
+                            <li class="nav-item  ml-0 mb-0 animation" data-animation="slideDown" data-delay="0.45s">
+                                <a class="nav-link text-uppercase  pl-0 pr-0 " href="contact.html">contact</a>
+                            </li>
+                        </ul>
+                    </div> <!--navbar-collapse end-->
+                </nav> <!--navbar end-->
+            </div>  <!--container end-->
+        </header> <!--header end-->
+
+        <!--  main start  -->
+        <main class="pt-10">
+
+            <section id="contact" class="contact mb-10 pb-10">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 mb-md-0 mb-4 animation" data-animation="slideRight">
+
+                            <h2 class="headline-03 mb-10">Please contact us using <br> the form bellow</h2>
+
+                            <form method="post" action="" class="contact-form">
+
+                                <div class="form-group">
+                                    <input class="form-control" type="text" name="name" value="" placeholder="Name and Surname*">
+                                    <div class="invalid-feedback"></div>
+                                </div>
+
+                                <div class="form-group">
+                                    <input class="form-control" type="email" name="email" value="" placeholder="Email*">
+                                    <div class="invalid-feedback"></div>
+                                </div>
+
+                                <div class="form-group">
+                                    <input class="form-control" type="text" name="subject" value="" placeholder="Subject*">
+                                    <div class="invalid-feedback"></div>
+                                </div>
+
+                                <div class="form-group">
+                                    <textarea class="form-control" name="message" cols="6" placeholder="Message"></textarea>
+                                    <div class="invalid-feedback"></div>
+                                </div>
+
+                                <div class="form-group submit-button">
+                                    <button class="btn btn-primary border-0 rounded-0 px-4 text-uppercase" type="submit" name="send" value="yes">send message</button>
+                                </div>
+
+                            </form>
+                        </div>
+
+                        <div class="col-12 col-md-6 animation" data-animation="slideLeft">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d45292.10658525139!2d20.486454413183598!3d44.80614757515672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2srs!4v1587067773763!5m2!1sen!2srs" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!--section company-info START-->
+            <section class="company-info bg-secondary pt-10 pb-10 text-center">
+                <div class="container">
+
+                    <p class="contact-adress animation mb-2" data-animation="slideUp" data-delay="0s">
+                        <span class="fas fa-map-marker-alt mr-3"></span>
+                        <span>146 Douglas Dale Suite 343</span>
+                    </p>
+
+                    <p class="contact-phone animation mb-2" data-animation="slideUp" data-delay="0.15s">
+                        <span class="fas fa-phone-alt mr-3"></span>
+                        <a href="tel:560-748-5959">560-748-5959</a>
+                    </p>
+
+                    <p class="contact-mail animation mb-2" data-animation="slideUp" data-delay="0.3s">
+                        <span class=" far fa-envelope mr-3"></span>
+                        <a href="mailto:cullen_mueller@yahoo.com">cullen_mueller@yahoo.com</a>
+                    </p>
+                </div>
+
+            </section>  <!--section company-info END-->
+
+        </main> <!--main end-->
+
+        <!--footer start-->
+        <footer>
+            <div class="container">
+                <section class="social text-center mr-auto ml-auto">
+                    <a class="fab fa-facebook-f p-2 animation" data-animation="slideDown" data-delay="0s" href="https://www.facebook.com/"></a>
+                    <a class="fab fa-twitter p-2 animation" data-animation="slideDown" data-delay="0.2s" href="https://www.twitter.com/"></a>
+                    <a class="fab fa-instagram p-2 animation" data-animation="slideDown" data-delay="0.4s" href="https://www.instagram.com/"></a>
+                </section>
+                <p class="copyright text-center mr-auto ml-auto animation" data-animation="slideLeft">Copyright © 2019 Mademoiselle</p>
+            </div>
+        </footer>
+        <!--footer end-->
+
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+
+        <script src="js/jquery.validate.min.js" type="text/javascript"></script>
+
+        <!--font awesome icons-->
+        <script src="https://kit.fontawesome.com/85bd05dd45.js"></script>
+        <script src="js/main.js" type="text/javascript"></script>
+    </body>
+</html>

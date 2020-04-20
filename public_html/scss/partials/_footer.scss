@@ -1,0 +1,23 @@
+footer{
+    margin-top: 12rem;
+    margin-bottom: 14rem;
+    .social{
+        a{
+            font-size: 2.4rem;
+            color: $secondary !important;
+            &:hover{
+                color: $primary !important;
+            }
+        }
+
+    }
+    .copyright{
+        margin-top: 2rem;
+/*        margin-bottom: 10rem;*/
+        letter-spacing: -0.17px;
+        line-height: 4rem;
+        font-size: 1.2rem;
+        color: $primary;
+    }
+}
+

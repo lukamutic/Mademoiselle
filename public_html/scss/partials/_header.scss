@@ -1,0 +1,64 @@
+
+$toggler-bg: $primary;
+
+header{
+    padding: 28px 0 27px 0;
+    transition: padding 350ms ease;
+    .navbar-brand{ 
+        max-width: 50%;
+    }
+
+    .navbar-toggler{
+        span{
+            display: block;
+            width: 30px;
+            height: 2px;
+            margin-bottom: 5px;
+            background-color: $toggler-bg;
+            &:last-of-type{
+                margin-bottom: 0;  
+            }
+        }
+    }
+
+
+    .navbar-nav{
+
+        .nav-item{
+
+        } //nav-item end
+
+        .nav-link{
+            /*font-weight: $font-weight-medium;*/
+            font-size: 1.4rem;
+            line-height: 1.7rem;
+            font-weight: $font-weight-regular;
+            text-align: center;
+            color: $primary !important;
+            font-family: $Lato;
+            font-weight: $L-Regular;
+        } //nav-link end
+    } //navbar-nav end
+
+    
+} // header end
+
+
+/*logo-size*/
+@media(min-width:768px){
+    header{
+        .navbar-brand{
+            max-width: 25%;
+        }
+        padding: 28px 0 27px 0;
+    }
+}
+
+/*@media(min-width:768px){
+    
+}*/
+
+
+.smallHeader{
+    padding: 5px 0 5px 0;
+}
